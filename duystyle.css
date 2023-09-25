@@ -1,0 +1,57 @@
+/*dark is default ig*/
+* {
+		background: #000000;
+		color: #cccccc;
+}
+@media (prefers-color-scheme: dark) {
+	* {
+		background: #000000;
+		color: #cccccc;
+	}
+}
+@media (prefers-color-scheme: light) {
+	* {
+		background: #cccccc;
+		color: #000000;
+	}
+}
+
+p {
+	margin-left: 48px;
+	text-indent: 48px;
+}
+#duya {
+	margin-left: 0px;
+	text-indent: 0px;
+	text-align: center;
+}
+a {
+	color: #bb2040;
+}
+hr {
+	/*color: #bb2040;*/ /*idk why chromium breaks here wtf*/
+	border: 1px solid #bb2040;
+}
+footer {
+	text-align: right;
+}
+#nav {
+	text-decoration: none;
+	background: #bb2040;
+	color: #000000;
+	margin-right: 4px;
+	margin-left: 4px;
+}
+
+@media (pointer: fine), (pointer: none) {
+	div {
+		max-width: 768px;
+		margin: auto;
+	}
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
