@@ -1,18 +1,19 @@
-/*dark is default ig*/
+p/*dark is default ig*/
+/*solarized*/
 * {
-		background: #000000;
-		color: #cccccc;
+		background: #002b36;
+		color: #839496;
 }
 @media (prefers-color-scheme: dark) {
 	* {
-		background: #000000;
-		color: #cccccc;
+		background: #002b36;
+		color: #839496;
 	}
 }
 @media (prefers-color-scheme: light) {
 	* {
-		background: #cccccc;
-		color: #000000;
+		background: #fdf6e3;
+		color: #586e75;
 	}
 }
 
@@ -26,19 +27,19 @@ p {
 	text-align: center;
 }
 a {
-	color: #bb2040;
+	color: #dc322f;
 }
 hr {
-	/*color: #bb2040;*/ /*idk why chromium breaks here wtf*/
-	border: 1px solid #bb2040;
+	/*color: #dc322f;*/ /*idk why chromium breaks here wtf*/
+	border: 1px solid #dc322f;
 }
 footer {
 	text-align: right;
 }
 #nav {
 	text-decoration: none;
-	background: #bb2040;
-	color: #000000;
+	background: #dc322f;
+	color: #002b36;
 	margin-right: 4px;
 	margin-left: 4px;
 }
