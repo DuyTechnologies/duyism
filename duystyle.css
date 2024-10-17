@@ -56,3 +56,28 @@ img {
 	margin-left: auto;
 	margin-right: auto;
 }
+
+.border {
+	margin: 1px;
+	margin-right: 8px;
+	padding: 8px;
+	color: #eee8d5;
+	
+	background: linear-gradient(0deg, #002b36 0%, #002b36 50%, #073642 100%);
+	
+	border-right: 1px solid #184956; border-left: 1px solid #184956; border-bottom: 1px solid  #00212c; border-top: 1px solid #586e75; outline: 1px solid #002b36; box-shadow: inset 0 0 0 1px #073642;
+	text-decoration: none;
+	line-height: 3;
+}
+.border:hover {
+	margin: 0px;
+	margin-right: 7px;
+	padding: 9px;
+	color: #eee8d5;
+
+	background: linear-gradient(0deg, #073642 0%, #073642 50%, #002b36 100%);
+	
+	border-right: 1px solid #839496; border-left: 1px solid #839496; border-bottom: 1px solid #657b83; border-top: 1px solid #eee8d5; outline: 0px solid; box-shadow: inset 0 0 0 1px #073642;
+	text-decoration: none;
+	line-height: 3;
+}
